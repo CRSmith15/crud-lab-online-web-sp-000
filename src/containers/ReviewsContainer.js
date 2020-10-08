@@ -16,8 +16,8 @@ class ReviewsContainer extends Component {
           addReview={addReview}
         />
         <Reviews
-        reviews={restaurantReviews}
-        deleteReview={deleteReview}
+          reviews={restaurantReviews}
+          deleteReview={deleteReview}
         />
       </div>
     )
