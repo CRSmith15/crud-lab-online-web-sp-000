@@ -15,7 +15,7 @@ class RestaurantInput extends Component {
    this.setState({ text: '' });
  }
 
- 
+
   render() {
     return (
       <div>
