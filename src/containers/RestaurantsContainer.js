@@ -6,10 +6,15 @@ import { connect } from 'react-redux';
 class RestaurantsContainer extends Component {
 
   render() {
+    const { addRestaurant, restaurants, deleteRestaurant } = this.props;
+
     return (
       <div>
-        <RestaurantInput />
-        <Restaurants />
+        <RestaurantInput addRestaurant={addRestaurant} />
+        <Restaurants 
+          restaurants={restaurants}
+          deleteRestaurant={deleteRestaurant}
+        />
       </div>
     )
   }
