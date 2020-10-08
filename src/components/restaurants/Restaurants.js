@@ -7,9 +7,9 @@ class Restaurants extends Component {
       <ul>
       <h3>Restaurants:</h3>
       {this.props.restaurants.map(rest =>
-        <Restaurant 
-          key={rest.id} 
-          restaurant={rest} 
+        <Restaurant
+          key={rest.id}
+          restaurant={rest}
           deleteRestaurant={this.props.deleteRestaurant}
         />
       )}
