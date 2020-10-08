@@ -11,7 +11,7 @@ class RestaurantsContainer extends Component {
     return (
       <div>
         <RestaurantInput addRestaurant={addRestaurant} />
-        <Restaurants 
+        <Restaurants
           restaurants={restaurants}
           deleteRestaurant={deleteRestaurant}
         />
